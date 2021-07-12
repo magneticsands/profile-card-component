@@ -20,6 +20,7 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 0 24px;
 }
 
 .card {
@@ -45,6 +46,7 @@ section {
   font-size: 18px;
   font-weight: 700;
   color: hsl(229, 23%, 23%);
+  padding-top: 24px;
 }
 
 .age,
