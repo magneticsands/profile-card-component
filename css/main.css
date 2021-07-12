@@ -1,0 +1,92 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(0%, 11%, 12%);
+}
+
+section {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 150px;
+  background-size: cover;
+}
+
+.img-holder img {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.age,
+.city {
+  color: hsl(227, 10%, 46%);
+  font-weight: 500;
+}
+
+.city {
+  font-size: 16px;
+  padding: 16px 0 28px 0;
+}
+
+.card-body {
+  text-align: center;
+  color: hsl(0%, 11%, 12%);
+  padding: 0 28px;
+}
+
+.card-footer {
+  display: flex;
+  border-top: 1px solid hsla(0, 0%, 59%, 25%);
+}
+
+.items {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 33.33%;
+  padding: 28px;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+
+.meta {
+  font-weight: 500;
+  color: hsla(227, 10%, 46%, 75%);
+  font-size: 0.7rem;
+  line-height: 1.25rem;
+  letter-spacing: 1px;
+}
